@@ -15,7 +15,7 @@ function game() {
     let computerWin = 0;
     
     for (let roundsPlayed = 0; roundsPlayed < 5; roundsPlayed++) {
-        console.log(roundsPlayed + "batata")
+        console.log(roundsPlayed)
         const computerSelection = computerPlay();
         const playerSelection = prompt(`Make your choice between Rock, Paper and Scissors:`, );
         const playerInsensitive  = playerPlay(playerSelection);
