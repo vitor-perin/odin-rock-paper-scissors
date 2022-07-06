@@ -1,0 +1,43 @@
+html {
+    background-color: #232323;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #fff;
+}  
+
+.rps {
+    display: flex;
+    flex: 1;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 0;
+    min-height: 25vh;
+    min-width: 25vh;
+}
+
+button {
+    min-height: 25vh;
+    min-width: 25vh;
+}
+
+img {
+    max-height: 24vh;
+    max-width: 24vh;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
