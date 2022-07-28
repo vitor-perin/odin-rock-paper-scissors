@@ -21,6 +21,7 @@ buttons.forEach((button) => {
 });
 
 function round(playerChoice, computerChoice) {
+    
     if (playerChoice == computerChoice) {
         roundWinner.textContent = `Tie, no points gained`;
     }

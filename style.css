@@ -28,9 +28,25 @@ button {
     min-width: 25vh;
 }
 
-img {
-    max-height: 24vh;
-    max-width: 24vh;
+.rock {
+    background-image: url('img/rock.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.paper {
+    background-image: url('img/paper.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.scissor {
+    background-image: url('img/Scissors.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .scoreboard {
